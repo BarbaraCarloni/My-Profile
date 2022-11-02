@@ -1,0 +1,80 @@
+body {
+  font-family: 'Comfortaa';
+  background-color: #ECE5C7;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  font-size: 17px
+}
+
+h1, h2 {
+  font-family: Abril Fatface;
+  color: #354259
+}
+
+li {
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #FFE6E6;
+  font-size: 35px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+ul {
+  padding: 0;
+}
+
+a:hover {
+  color: #354259;
+  background-color: #FFE6E6;
+}
+
+#link-solini {
+  font-size: 15px;
+}
+
+#profile-pic {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  box-shadow: 0 0 16px rgba(0,0,0,.5);
+}
+
+.card {
+  background-color: #CDC2AE;
+  padding: 20px;
+  width: 600px;
+  margin: 20px auto;
+  border-radius: 10px;
+  border: 1px dashed #354259;
+  box-shadow: 0 0 16px rgba(0,0,0,.5)
+}
+
+.social-icon {
+  display: inline-block;
+  padding: 0px 7px;
+}
+
+@media (max-width: 960px) {
+  .card {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .card {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .card {
+    width: 300px;
+  }
+}
